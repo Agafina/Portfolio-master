@@ -8,7 +8,6 @@ import Testimonial from './components/testimonial/Testimonial'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import Portfolio from './components/portfolio/Portfolio';
-import LoginPage from './components/experience/components/login/RegisterPage';
 function APP(){
     return(
         <>
@@ -21,7 +20,7 @@ function APP(){
             <Navbar/>
             <Services/>
             <Testimonial/>  
-            <LoginPage/> 
+            
         </>
     )
 
